@@ -1,8 +1,8 @@
 var http = require("http");
-var express = require("express")
+var express = require("express");
 var app = express();
 var ejsEngine = require("ejs-locals");
-var controllers = require("./controllers")
+var controllers = require("./controllers");
 
 // Setup the View Engine
 //app.set("view engine", "jade")
